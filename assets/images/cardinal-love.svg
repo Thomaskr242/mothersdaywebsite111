@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cardinal with purple flowers</title>
+  <desc id="desc">A red cardinal perched among purple flowers.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff7ef"/>
+      <stop offset="0.52" stop-color="#e8d7f6"/>
+      <stop offset="1" stop-color="#ad6fd0"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="18%" cy="18%" r="50%">
+      <stop offset="0" stop-color="#ffe7a7"/>
+      <stop offset="1" stop-color="#ffe7a7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <rect width="1200" height="900" fill="url(#sun)"/>
+  <path d="M0 710 C160 635 265 735 430 657 C610 572 753 650 915 585 C1050 531 1130 560 1200 525 L1200 900 L0 900 Z" fill="#51325f" opacity="0.28"/>
+  <path d="M173 725 C374 621 616 600 1042 655" fill="none" stroke="#4d3d28" stroke-width="34" stroke-linecap="round"/>
+  <path d="M505 510 C567 378 704 324 822 383 C941 444 986 590 892 689 C790 796 610 754 538 632 C508 581 493 555 505 510Z" fill="#b91d32"/>
+  <path d="M652 377 C661 300 711 254 774 236 C756 298 748 354 797 408Z" fill="#9a1329"/>
+  <path d="M745 428 C801 415 854 421 903 452 C856 467 808 481 761 501Z" fill="#1f1a21"/>
+  <circle cx="757" cy="415" r="16" fill="#171114"/>
+  <path d="M794 443 L884 409 L846 486Z" fill="#e18b2f"/>
+  <path d="M563 642 C650 632 748 587 842 474 C844 606 790 714 684 741 C623 756 577 721 563 642Z" fill="#8f1429" opacity="0.68"/>
+  <path d="M525 603 C433 632 360 690 291 789 C407 762 509 716 595 644Z" fill="#821530"/>
+  <g fill="#714199">
+    <circle cx="226" cy="650" r="36"/>
+    <circle cx="172" cy="686" r="30"/>
+    <circle cx="266" cy="704" r="33"/>
+    <circle cx="1000" cy="602" r="35"/>
+    <circle cx="1062" cy="632" r="29"/>
+    <circle cx="947" cy="647" r="31"/>
+  </g>
+  <g fill="#f5c15d">
+    <circle cx="226" cy="650" r="10"/>
+    <circle cx="172" cy="686" r="8"/>
+    <circle cx="266" cy="704" r="9"/>
+    <circle cx="1000" cy="602" r="10"/>
+    <circle cx="1062" cy="632" r="8"/>
+    <circle cx="947" cy="647" r="9"/>
+  </g>
+</svg>

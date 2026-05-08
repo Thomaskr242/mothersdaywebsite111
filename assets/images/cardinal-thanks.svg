@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cardinal with Mother's Day note</title>
+  <desc id="desc">A red cardinal near a purple note for Mother's Day.</desc>
+  <rect width="1200" height="900" fill="#fff7ee"/>
+  <path d="M0 0 H1200 V900 H0Z" fill="#6d3295" opacity="0.11"/>
+  <rect x="610" y="168" width="360" height="460" rx="18" fill="#f8edff" stroke="#7e42aa" stroke-width="8"/>
+  <path d="M670 270 H910 M670 340 H910 M670 410 H845" stroke="#8d4eb1" stroke-width="18" stroke-linecap="round" opacity="0.45"/>
+  <path d="M670 523 C718 468 783 563 831 505 C873 456 925 507 908 560 C885 631 746 634 670 523Z" fill="#ba1f33" opacity="0.18"/>
+  <path d="M126 712 C315 633 596 591 1067 671" fill="none" stroke="#493722" stroke-width="36" stroke-linecap="round"/>
+  <path d="M297 594 C356 425 543 375 686 474 C817 565 780 738 626 800 C470 862 343 728 297 594Z" fill="#bd1e34"/>
+  <path d="M443 439 C452 357 511 304 590 280 C569 348 575 405 633 470Z" fill="#9d1429"/>
+  <path d="M584 488 C645 464 705 466 762 493 C707 512 653 537 602 571Z" fill="#20141b"/>
+  <circle cx="594" cy="470" r="16" fill="#120c10"/>
+  <path d="M635 498 L728 467 L687 540Z" fill="#e49531"/>
+  <path d="M368 655 C492 636 614 569 742 477 C741 640 638 763 493 776 C436 747 394 706 368 655Z" fill="#84152b" opacity="0.72"/>
+  <g fill="#714199">
+    <circle cx="218" cy="620" r="32"/><circle cx="160" cy="653" r="26"/><circle cx="263" cy="674" r="30"/>
+  </g>
+  <g fill="#f1bb59">
+    <circle cx="218" cy="620" r="9"/><circle cx="160" cy="653" r="7"/><circle cx="263" cy="674" r="8"/>
+  </g>
+</svg>

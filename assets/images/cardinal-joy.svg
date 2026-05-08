@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Two cardinals with blossoms</title>
+  <desc id="desc">Two cardinals surrounded by purple blossoms.</desc>
+  <rect width="1200" height="900" fill="#f8edf9"/>
+  <path d="M0 210 C170 90 312 166 470 100 C644 28 773 88 924 38 C1061 -8 1136 24 1200 7 L1200 900 L0 900Z" fill="#8d4eb1" opacity="0.16"/>
+  <path d="M86 672 C306 562 560 567 1120 637" fill="none" stroke="#514128" stroke-width="34" stroke-linecap="round"/>
+  <path d="M314 574 C361 455 482 406 586 462 C687 516 703 642 610 710 C522 774 379 707 314 574Z" fill="#ba1f33"/>
+  <path d="M446 438 C455 372 499 333 558 315 C541 365 539 418 582 467Z" fill="#99152a"/>
+  <path d="M535 482 C586 466 635 468 681 491 C636 509 591 529 548 557Z" fill="#21151c"/>
+  <circle cx="543" cy="466" r="14" fill="#120c10"/>
+  <path d="M576 493 L657 469 L618 532Z" fill="#e1942f"/>
+  <path d="M658 585 C717 453 850 405 958 469 C1055 526 1070 653 974 722 C881 790 726 724 658 585Z" fill="#c6263b"/>
+  <path d="M798 445 C804 377 850 335 912 317 C895 371 897 421 947 475Z" fill="#a4162b"/>
+  <path d="M889 489 C945 470 996 472 1041 500 C995 516 943 537 899 563Z" fill="#22151d"/>
+  <circle cx="898" cy="472" r="14" fill="#120c10"/>
+  <path d="M931 499 L1015 475 L976 538Z" fill="#e69b32"/>
+  <g fill="#7e42aa">
+    <circle cx="180" cy="560" r="34"/><circle cx="235" cy="522" r="25"/><circle cx="243" cy="592" r="28"/>
+    <circle cx="1030" cy="583" r="31"/><circle cx="1092" cy="555" r="25"/><circle cx="1084" cy="626" r="28"/>
+    <circle cx="486" cy="220" r="30"/><circle cx="550" cy="195" r="24"/><circle cx="548" cy="262" r="26"/>
+  </g>
+  <g fill="#f2bd55">
+    <circle cx="180" cy="560" r="9"/><circle cx="235" cy="522" r="7"/><circle cx="243" cy="592" r="8"/>
+    <circle cx="1030" cy="583" r="9"/><circle cx="1092" cy="555" r="7"/><circle cx="1084" cy="626" r="8"/>
+    <circle cx="486" cy="220" r="9"/><circle cx="550" cy="195" r="7"/><circle cx="548" cy="262" r="8"/>
+  </g>
+</svg>
