@@ -4,7 +4,15 @@ This is a static website, so it works on GitHub Pages and can be edited in PhpSt
 
 ## How to edit the pictures
 
-Put your own photos in `assets/images/`, then update the `src` values in `index.html` and the matching files inside `messages/`.
+The site photos are already in `assets/images/`:
+
+- `mom-birthday.jpg`
+- `mom-party.jpg`
+- `mom-family.jpg`
+- `mom-formal.jpg`
+- `mom-memory.jpg`
+
+To replace one later, put the new photo in `assets/images/`, then update the `src` values in `index.html` and the matching files inside `messages/`.
 
 Example:
 

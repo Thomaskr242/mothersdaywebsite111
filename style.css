@@ -39,8 +39,8 @@ a {
     position: relative;
     overflow: hidden;
     background:
-        linear-gradient(90deg, rgba(39, 21, 47, 0.76), rgba(86, 32, 111, 0.55)),
-        url("assets/images/cardinal-love.svg") center right / min(58rem, 100vw) no-repeat,
+        linear-gradient(90deg, rgba(39, 21, 47, 0.84), rgba(86, 32, 111, 0.5)),
+        url("assets/images/mom-party.jpg") center right / cover no-repeat,
         linear-gradient(135deg, var(--plum), var(--violet));
     color: white;
 }
@@ -107,7 +107,7 @@ h1 {
     width: min(1120px, calc(100% - 36px));
     margin: -46px auto 64px;
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
     gap: 18px;
     position: relative;
     z-index: 2;
@@ -217,7 +217,7 @@ h1 {
         min-height: auto;
         background:
             linear-gradient(180deg, rgba(39, 21, 47, 0.7), rgba(86, 32, 111, 0.72)),
-            url("assets/images/cardinal-love.svg") center bottom / 54rem no-repeat,
+            url("assets/images/mom-party.jpg") center / cover no-repeat,
             linear-gradient(135deg, var(--plum), var(--violet));
     }
 
