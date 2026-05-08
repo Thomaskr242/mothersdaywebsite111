@@ -216,34 +216,158 @@ h1 {
     .site-header {
         min-height: auto;
         background:
-            linear-gradient(180deg, rgba(39, 21, 47, 0.7), rgba(86, 32, 111, 0.72)),
-            url("assets/images/mom-party.jpg") center / cover no-repeat,
+            linear-gradient(180deg, rgba(39, 21, 47, 0.56), rgba(39, 21, 47, 0.82)),
+            url("assets/images/mom-party.jpg") center top / cover no-repeat,
             linear-gradient(135deg, var(--plum), var(--violet));
     }
 
+    .nav {
+        width: min(100% - 28px, 1120px);
+        padding: 18px 0;
+    }
+
     .hero {
-        min-height: 520px;
-        align-items: flex-start;
-        padding-top: 46px;
+        width: min(100% - 28px, 1120px);
+        min-height: 62svh;
+        align-items: flex-end;
+        padding: 44px 0 34px;
     }
 
     .gallery {
+        width: min(100% - 28px, 1120px);
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        margin-top: 24px;
+        gap: 14px;
+        margin-top: 18px;
+        margin-bottom: 42px;
+    }
+
+    .message-page {
+        display: block;
+        padding: 14px;
+    }
+
+    .message-card img {
+        max-height: none;
+        aspect-ratio: 4 / 5;
+        object-fit: cover;
+    }
+
+    .message-card h1,
+    .message-card p {
+        width: min(100% - 28px, 650px);
     }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 620px) {
+    body {
+        background:
+            radial-gradient(circle at 0 0, rgba(186, 31, 51, 0.12), transparent 18rem),
+            linear-gradient(160deg, #fff8f0 0%, #f2e6fb 54%, #fff7ee 100%);
+    }
+
+    .site-header {
+        background:
+            linear-gradient(180deg, rgba(39, 21, 47, 0.36), rgba(39, 21, 47, 0.88)),
+            url("assets/images/mom-party.jpg") 54% top / cover no-repeat,
+            linear-gradient(135deg, var(--plum), var(--violet));
+    }
+
     .nav {
-        align-items: flex-start;
-        flex-direction: column;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .brand {
+        font-size: 2.65rem;
+    }
+
+    .nav-note {
+        font-size: 0.68rem;
+        letter-spacing: 0.1em;
     }
 
     .hero {
-        min-height: 500px;
+        min-height: 68svh;
+        padding-bottom: 28px;
+    }
+
+    .eyebrow {
+        margin-bottom: 10px;
+        font-size: 0.7rem;
+        line-height: 1.35;
+    }
+
+    h1 {
+        max-width: 9ch;
+        font-size: clamp(4.25rem, 18vw, 5.8rem);
+    }
+
+    .hero p:last-child {
+        max-width: 22rem;
+        margin-top: 18px;
+        font-size: 1rem;
+        line-height: 1.55;
     }
 
     .gallery {
         grid-template-columns: 1fr;
+        gap: 16px;
+        margin-top: 16px;
+    }
+
+    .memory-card {
+        grid-template-rows: auto minmax(64px, auto);
+    }
+
+    .memory-card:hover {
+        transform: none;
+    }
+
+    .memory-card img {
+        aspect-ratio: 3 / 4;
+        object-fit: cover;
+    }
+
+    .memory-card:nth-child(2) img,
+    .memory-card:nth-child(3) img {
+        object-position: center top;
+    }
+
+    .memory-card:nth-child(4) img {
+        aspect-ratio: 1 / 1;
+    }
+
+    .memory-card span {
+        min-height: 64px;
+        padding: 14px 16px;
+        font-size: 1rem;
+    }
+
+    .back-link {
+        min-height: 44px;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .message-card {
+        border-radius: 8px;
+    }
+
+    .message-card img {
+        aspect-ratio: auto;
+        max-height: 68svh;
+        object-fit: contain;
+    }
+
+    .message-card h1 {
+        margin-top: 26px;
+        font-size: clamp(3.1rem, 16vw, 4.9rem);
+    }
+
+    .message-card p {
+        margin-top: 12px;
+        margin-bottom: 32px;
+        font-size: 1.04rem;
+        line-height: 1.65;
     }
 }
