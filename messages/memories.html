@@ -9,17 +9,82 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
 </head>
-<body class="message-page">
-    <main class="message-wrap">
+<body class="message-page collage-page">
+    <main class="message-wrap collage-wrap">
         <a class="back-link" href="../index.html">Back to all pictures</a>
         <article class="message-card">
-            <img src="../assets/images/mom-memory.jpg" alt="A favorite memory with Mom">
+            <img src="../assets/images/mom-collage/collage-01.jpg" alt="Mom and Thomas sitting together at night">
             <h1>For Our Memories</h1>
             <p>
                 Every picture with you reminds me how lucky I am to have a mom who shows up
                 with so much love. I will always be grateful for the memories we have made.
             </p>
         </article>
+
+        <section class="mom-collage-section" aria-labelledby="mom-collage-title">
+            <h2 id="mom-collage-title">Mom</h2>
+            <div class="mom-collage" id="momCollage" aria-label="A collage of family pictures spelling Mom"></div>
+        </section>
     </main>
+
+    <script>
+        const collageImages = [
+            "../assets/images/mom-collage/collage-01.jpg",
+            "../assets/images/mom-collage/collage-02.jpg",
+            "../assets/images/mom-collage/collage-03.jpg",
+            "../assets/images/mom-collage/collage-04.jpg",
+            "../assets/images/mom-collage/collage-05.jpg",
+            "../assets/images/mom-collage/collage-06.jpg",
+            "../assets/images/mom-collage/collage-07.jpg",
+            "../assets/images/mom-collage/collage-08.jpg",
+            "../assets/images/mom-collage/collage-09.jpg",
+            "../assets/images/mom-collage/collage-10.jpg",
+            "../assets/images/mom-collage/collage-11.jpg",
+            "../assets/images/mom-collage/collage-12.jpg",
+            "../assets/images/mom-collage/collage-13.jpg",
+            "../assets/images/mom-collage/collage-14.jpg",
+            "../assets/images/mom-collage/collage-15.jpg",
+            "../assets/images/mom-collage/collage-16.jpg",
+            "../assets/images/mom-collage/collage-17.jpg",
+            "../assets/images/mom-collage/collage-18.jpg",
+            "../assets/images/mom-collage/collage-19.jpg",
+            "../assets/images/mom-collage/collage-20.jpg",
+            "../assets/images/mom-collage/collage-21.jpg",
+            "../assets/images/mom-collage/collage-22.jpg",
+            "../assets/images/mom-collage/collage-23.jpg",
+            "../assets/images/mom-collage/collage-24.jpg"
+        ];
+
+        const momPattern = [
+            "100010111010001",
+            "110111000111011",
+            "101011000110101",
+            "100011000110001",
+            "100011000110001",
+            "100011000110001",
+            "100010111010001"
+        ];
+
+        const collage = document.querySelector("#momCollage");
+        let photoIndex = 0;
+
+        momPattern.forEach((row) => {
+            [...row].forEach((spot) => {
+                const tile = document.createElement("div");
+                tile.className = spot === "1" ? "collage-tile is-photo" : "collage-tile";
+
+                if (spot === "1") {
+                    const image = document.createElement("img");
+                    image.src = collageImages[photoIndex % collageImages.length];
+                    image.alt = "Family memory";
+                    image.loading = "lazy";
+                    tile.appendChild(image);
+                    photoIndex += 1;
+                }
+
+                collage.appendChild(tile);
+            });
+        });
+    </script>
 </body>
 </html>
