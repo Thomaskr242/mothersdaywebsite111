@@ -40,7 +40,7 @@ a {
     overflow: hidden;
     background:
         linear-gradient(90deg, rgba(39, 21, 47, 0.84), rgba(86, 32, 111, 0.5)),
-        url("assets/images/index-main-photo.jpg") center / cover no-repeat,
+        url("assets/images/mom-party.jpg") center / cover no-repeat,
         linear-gradient(135deg, var(--plum), var(--violet));
     color: white;
 }
@@ -264,7 +264,7 @@ h1 {
         min-height: auto;
         background:
             linear-gradient(180deg, rgba(39, 21, 47, 0.56), rgba(39, 21, 47, 0.82)),
-            url("assets/images/index-main-photo.jpg") center / cover no-repeat,
+            url("assets/images/mom-party.jpg") center / cover no-repeat,
             linear-gradient(135deg, var(--plum), var(--violet));
     }
 
@@ -320,7 +320,7 @@ h1 {
     .site-header {
         background:
             linear-gradient(180deg, rgba(39, 21, 47, 0.36), rgba(39, 21, 47, 0.88)),
-            url("assets/images/index-main-photo.jpg") center top / cover no-repeat,
+            url("assets/images/mom-party.jpg") center / cover no-repeat,
             linear-gradient(135deg, var(--plum), var(--violet));
     }
 
